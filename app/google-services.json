@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "298242765196",
+    "firebase_url": "https://livestream-b1c47.firebaseio.com",
+    "project_id": "livestream-b1c47",
+    "storage_bucket": "livestream-b1c47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298242765196:android:e3ff26c7de9b615f",
+        "android_client_info": {
+          "package_name": "com.karinnaloo.livestream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298242765196-jq7f2ptvpt2698450odgoibhbskm9d57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karinnaloo.livestream",
+            "certificate_hash": "8396ada8b8f0edbc879c1c32b36c1ce9e8f27009"
+          }
+        },
+        {
+          "client_id": "298242765196-q740olplbudosl67dntngv9guvqomk7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJleREtbdzmZorwj3-3Re4lqDCNYiD4vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298242765196-q740olplbudosl67dntngv9guvqomk7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
