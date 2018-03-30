@@ -14,6 +14,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.karinnaloo.livestream.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -83,8 +84,8 @@ public class RegisterActivity extends AppCompatActivity {
                                 } else {
                                     Toast.makeText(getApplicationContext(), "created user and logged in.",
                                             Toast.LENGTH_SHORT).show();
-//                                    startActivity(new Intent(RegisterActivity.this, Home.class));
-//                                    finish();
+                                    startActivity(new Intent(RegisterActivity.this, MainActivity.class));
+                                    finish();
                                 }
                             }
                         });

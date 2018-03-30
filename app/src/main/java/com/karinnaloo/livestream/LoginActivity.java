@@ -27,8 +27,8 @@ public class LoginActivity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
 
         if (auth.getCurrentUser() != null) {
-//            startActivity(new Intent(LoginActivity.this, Home.class));
-//            finish();
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
+            finish();
             Toast.makeText(getApplicationContext(), "Auto logged in.",
                     Toast.LENGTH_SHORT).show();
         }
@@ -90,9 +90,9 @@ public class LoginActivity extends AppCompatActivity {
                                 } else {
                                     Toast.makeText(getApplicationContext(), "Signed in & logged in.",
                                             Toast.LENGTH_SHORT).show();
-//                                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-//                                    startActivity(intent);
-//                                    finish();
+                                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                    startActivity(intent);
+                                    finish();
                                 }
                             }
                         });
